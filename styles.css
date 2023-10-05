@@ -1,1 +1,48 @@
-/*  your css code here. If applicable */
+body, h1, p, button {
+    margin: 0;
+    padding: 0;
+}
+.card {
+    width: 350px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    margin: 0 auto;
+    margin-top:0px;
+	
+}
+.card-image{
+	width:300px;
+	padding-top:20px;
+	padding-bottom:0px;
+	object-fit: cover;
+}
+.card-title {
+    font-size: 52px;
+    margin-top: 0px;
+}
+
+.card-price{
+	font-size:bold;
+	font-size: 28px;
+}
+.card-description{
+	font-size: 30px;
+	justify-content:space-between;
+	padding-bottom:10px;
+}
+.buy-now-button{
+	background:#fe625a;
+	color:white;
+	padding:20px;
+	font-size: 25px;
+	border-radius:10px;
+	border:none;
+	margin-bottom:10px;	
+	
+}
+.buy-now-button:hover{
+	color:gray;
+	cursor:pointer;
+}
